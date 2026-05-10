@@ -1,0 +1,34 @@
+.menu ul {
+    display: flex;
+    justify-content: center;
+    background-color: #8F4F42;
+    list-style: none;
+    gap: 55px;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu a:hover {
+    background: #784437;
+    color: black;
+}
+
+.img {
+    width:auto;
+    height: 400px;
+    display: block;
+    margin-left: 800px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
