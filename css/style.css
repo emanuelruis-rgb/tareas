@@ -21,13 +21,6 @@
     color: black;
 }
 
-.img {
-    width:auto;
-    height: 400px;
-    display: block;
-    margin-left: 800px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -35,5 +28,24 @@
 
 .titulo {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 30px;
+    margin-left: 50px;
+}
+
+.b-cont {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px;
+}
+
+.b-cont img {
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tex {
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 400px;
 }
