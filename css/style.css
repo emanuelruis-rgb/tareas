@@ -1,3 +1,7 @@
+body {
+    background-color: #FFECE0;
+}
+
 .menu ul {
     display: flex;
     justify-content: center;
@@ -28,7 +32,7 @@
 
 .titulo {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .b-cont {
